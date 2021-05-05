@@ -4,7 +4,7 @@
 
 ### Deploy to Heroku 🏃‍♂
 
-[![Deploy To Heroku](https://github.com/epusthakalaya/TELEGRA.PH_X-bot.git)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://github.com/epusthakalaya/TELEGRA.PH_X-bot.git)
 
 ### Credits:
 
