@@ -4,7 +4,7 @@
 
 ### Deploy to Heroku 🏃‍♂
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://git.heroku.com/telegraphxbot.git)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/epusthakalaya/TELEGRA.PH_X-bot)
 
 ### Credits:
 
@@ -13,6 +13,5 @@
 [E PUSTHAKALAYA BOTs™](https://t.me/epusthakalaya_bots)
 
 [Pyrogram Library](https://github.com/pyrogram/pyrogram)
-
 
 
