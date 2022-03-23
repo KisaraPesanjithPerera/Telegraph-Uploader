@@ -15,24 +15,27 @@ bot = Client(
 @epusthakalaya_bots.on_message(filters.command("start"))
 async def start(client, message):
    if message.chat.type == 'private':
+   await message.reply_chat_action("typing")
        await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>Hey There, I'm Telegra.ph_x Uploder Bot 🇱🇰
+               text="""<b>🔥𝓗𝓲 𝓣𝓱𝓮𝓻𝓮,</b>
 
-I can upload photos or videos to telegraph. Made by @Madushanka_bro
+𝗜'𝗺 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗽𝗵 𝗨𝗽𝗹𝗼𝗮𝗱𝗲𝗿 𝗥𝗼𝗯𝗼𝘁 🇱🇰
 
-Hit help button to find out more about how to use me.
+📝𝗜 𝗖𝗮𝗻 𝗨𝗽𝗹𝗼𝗮𝗱 𝗣𝗵𝗼𝘁𝗼𝘀 𝗢𝗿 𝗩𝗶𝗱𝗲𝗼𝘀 𝗬𝗼𝘂 𝗦𝗲𝗻𝗱 𝗠𝗲 𝗧𝗼 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗽𝗵📤
+📌𝗛𝗶𝘁 𝗛𝗲𝗹𝗽 𝗕𝘂𝘁𝘁𝗼𝗻 𝗧𝗼 𝗙𝗶𝗻𝗱 𝗢𝘂𝘁 𝗠𝗼𝗿𝗲 𝗔𝗯𝗼𝘂𝘁 𝗛𝗼𝘄 𝗧𝗼 𝗨𝘀𝗲 𝗠𝗲🙋‍♂️
 
-powered  by:
-epusthakalaya_bots</b>""",   
+⚙️𝗣𝗼𝘄𝗲𝗿𝗱 𝗕𝘆 :- <b>@AnonymousBotsInfinity</b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "Help", callback_data="help"),
+                                            "Help 🚀", callback_data="help"),
+                                        ],[
                                         InlineKeyboardButton(
-                                            "DEVELPOER", url="https://t.me/Madushanka_bro"),
+                                            "Updates 🍀", url="https://t.me/AnonymousBotInfinity"),
                                         InlineKeyboardButton(
-                                            "Channel", url="https://t.me/epusthakalaya_bots")
+                                            "Support 🌺", url="https://t.me/AnonymousBotInfinitySupport")
+                                        ],[
                                ]]
                             ),        
             disable_web_page_preview=True,        
@@ -43,17 +46,17 @@ async def help(client, message):
     if message.chat.type == 'private':   
         await bot.send_message(
                chat_id=message.chat.id,
-               text="""<b>Telegra.ph_x Uploder Bot Help!
+               text="""𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗽𝗵 𝗨𝗽𝗹𝗼𝗮𝗱𝗲𝗿 𝗥𝗼𝗯𝗼𝘁 𝗛𝗲𝗹𝗽 𝗠𝗲𝗻𝘂📮
 
-Just send a photo or video less than 5mb file size, I'll upload it to telegraph.
+📊𝗝𝘂𝘀𝘁 𝗦𝗲𝗻𝗱 𝗔 𝗣𝗵𝗼𝘁𝗼 , 𝗚𝗶𝗳 𝗢𝗿 𝗩𝗶𝗱𝗲𝗼 𝗟𝗲𝘀𝘀 𝗧𝗵𝗮𝗻 𝟱𝗠𝗕 𝗙𝗶𝗹𝗲 𝗦𝗶𝘇𝗲, 𝗜'𝗹𝗹 𝗨𝗽𝗹𝗼𝗮𝗱 𝗜𝘁 𝗧𝗼 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗽𝗵📤
 
-~ @epusthakalaya_bots</b>""",
+⚙️𝗣𝗼𝘄𝗲𝗿𝗱 𝗕𝘆 :- <b>@AnonymousBotsInfinity</b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "Back", callback_data="start"),
+                                            "Back ↩️", callback_data="start"),
                                         InlineKeyboardButton(
-                                            "About", callback_data="about"),
+                                            "About 🧿", callback_data="about"),
                                   ]]
                             ),        
             disable_web_page_preview=True,        
@@ -64,20 +67,23 @@ async def about(client, message):
     if message.chat.type == 'private':   
         await bot.send_message(
                chat_id=message.chat.id,
-               text="""<b>About Telegra.ph_x Uploder Bot!</b>
+               text="""𝗔𝗯𝗼𝘂𝘁 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗽𝗵 𝗨𝗽𝗹𝗼𝗮𝗱𝗲𝗿 𝗥𝗼𝗯𝗼𝘁 🇱🇰
 
-<b>♞ Developer:</b> <a href="https://t.me/Madushanka_bro">Kasuntha 🇱🇰</a>
+✨ <b>My Name :</b> 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗽𝗵 𝗨𝗽𝗹𝗼𝗮𝗱𝗲𝗿 𝗥𝗼𝗯𝗼𝘁 🇱🇰
+👨‍💻 <b>Developer :</b> 𝙺𝚒𝚜𝚊𝚛𝚊 𝙿𝚎𝚜𝚊𝚗𝚓𝚒𝚝𝚑
+🍀 <b>Data Base :</b> Mango DB
+📝 <b>Language :</b> Python3
+🧰 <b>Framework :</b> Pyrogram
+📡 <b>Server :</b> Heroku
+🌹 <b>Build Status :</b> 𝚅2.5
 
-<b>♞ Support:</b> <a href="https://t.me/epusthakalaya_bots">EPUETHAKALAYA Support</a>
-
-
-
-<b>~ @epusthakalaya_bots</b>""",
+⚙️𝗣𝗼𝘄𝗲𝗿𝗱 𝗕𝘆 :- <b>@AnonymousBotsInfinity</b>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "Back", callback_data="help"),
-                                     ]]
+                                            "Back ↩️", callback_data="help"),
+                                        InlineKeyboardButton('🔐 Source Code 🔐', url='https://github.com/KisaraPesanjithPerera/Captain-Price')
+                                ]]
                             ),        
             disable_web_page_preview=True,        
             parse_mode="html")
@@ -90,9 +96,9 @@ async def telegraphphoto(client, message):
     try:
         response = upload_file(download_location)
     except:
-        await msg.edit_text("📸 Photo size should be less than 5mb!") 
+        await msg.edit_text("📸 Photo Size Should Be Less Than 5MB!") 
     else:
-        await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\n~ @epusthakalaya_bots**',
+        await msg.edit_text(f'**Uploaded To Telegraph!**\n\n👉<code>https://telegra.ph{response[0]}</code>\n\n⚙️𝗣𝗼𝘄𝗲𝗿𝗱 𝗕𝘆 :- @AnonymousBotsInfinity',
             disable_web_page_preview=True,
         )
     finally:
@@ -106,9 +112,9 @@ async def telegraphvid(client, message):
     try:
         response = upload_file(download_location)
     except:
-        await msg.edit_text("📹 Video size should be less than 5mb!") 
+        await msg.edit_text("📹 Video Size Should Be Less Than 5MB!") 
     else:
-        await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\n~ @epusthakalaya_bots**',
+        await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉<code>https://telegra.ph{response[0]}</code>\n\n⚙️𝗣𝗼𝘄𝗲𝗿𝗱 𝗕𝘆 :- @AnonymousBotsInfinity',
             disable_web_page_preview=True,
         )
     finally:
@@ -122,7 +128,7 @@ async def telegraphgif(client, message):
     try:
         response = upload_file(download_location)
     except:
-        await msg.edit_text("🏞 Gif size should be less than 5mb!") 
+        await msg.edit_text("🏞 Gif Size Should Be Less Than 5MB!") 
     else:
         await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\n~ @epusthakalaya_bots**',
             disable_web_page_preview=True,
