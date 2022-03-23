@@ -15,7 +15,7 @@ bot = Client(
 @epusthakalaya_bots.on_message(filters.command("start"))
 async def start(client, message):
    if message.chat.type == 'private':
-   await.send_message(
+  
                chat_id=message.chat.id,
                text="""<b>🔥𝓗𝓲 𝓣𝓱𝓮𝓻𝓮,</b>
 
