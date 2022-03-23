@@ -114,7 +114,7 @@ async def telegraphvid(client, message):
     except:
         await msg.edit_text("📹 Video Size Should Be Less Than 5MB!") 
     else:
-        await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉<code>https://telegra.ph{response[0]}</code>\n\n⚙️𝗣𝗼𝘄𝗲𝗿𝗱 𝗕𝘆 :- @AnonymousBotsInfinity',
+        await msg.edit_text(f'**Uploaded To Telegraph!**\n\n👉<code>https://telegra.ph{response[0]}</code>\n\n⚙️𝗣𝗼𝘄𝗲𝗿𝗱 𝗕𝘆 :- @AnonymousBotsInfinity',
             disable_web_page_preview=True,
         )
     finally:
@@ -130,7 +130,7 @@ async def telegraphgif(client, message):
     except:
         await msg.edit_text("🏞 Gif Size Should Be Less Than 5MB!") 
     else:
-        await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\n~ @epusthakalaya_bots**',
+        await msg.edit_text(f'**Uploaded To Telegraph!**\n\n👉<code>https://telegra.ph{response[0]}</code>\n\n⚙️𝗣𝗼𝘄𝗲𝗿𝗱 𝗕𝘆 :- @AnonymousBotsInfinity',
             disable_web_page_preview=True,
         )
     finally:
@@ -152,7 +152,7 @@ async def button(bot, update):
 print(
     """
 Bot Started!
-Join @epusthakalaya_bots
+⚙️𝗣𝗼𝘄𝗲𝗿𝗱 𝗕𝘆 :- @AnonymousBotsInfinity
 """
 )
 
